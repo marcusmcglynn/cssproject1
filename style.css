@@ -1,0 +1,62 @@
+/* ? Element Selector - Grabs every instance of the selected elements */
+/* * CSS Specificity - means the more specific selector takes precident - even if the less specific selector comes after it */
+
+body {
+    background-color: rgb(221, 253, 243);
+}
+
+body, h1, h2, p {
+    margin: 0;
+}
+
+h1, h2, .info{
+    padding: 10px;
+    border: solid 2px black;
+    margin: 1px;
+}
+
+h1 {
+    background-color: #dc143c;
+    text-align: center;
+    color: #ffd700;
+}
+
+h2 {
+    background-color: #008000;
+    text-align: center;
+    color: #ffffff;
+}
+
+#welcome {
+    background-color: #e1d173;
+    color: rgb(29, 32, 34);
+}
+
+.info {
+    text-align: center;
+    color: #48486c;
+    background-color: #5ebdd5;
+}
+
+.image, p {
+    text-align: center;
+}
+
+footer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+article p {
+    border: solid 2px black;
+    margin: 5px;
+    background-color: #4263c0;
+    color: rgb(211, 218, 224);
+    padding: 2px;
+}
+
+#img-d {
+    background-color: #e1d173;
+    color: black;
+}
+
